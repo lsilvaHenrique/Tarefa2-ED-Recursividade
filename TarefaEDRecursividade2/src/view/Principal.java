@@ -6,7 +6,7 @@ public class Principal {
 		int[] vetor= {4,8,-9,5,3,-7,10,-7,9,1,-2};
 		
 		VetorController vc = new VetorController();
-		int contador = vc.contarNegativos(vetor);
+		int contador = vc.contarNegativos(vetor, 0);
 		System.out.println("A quantidade de números negativos no vetor "
 				+ "é de " + contador + " números");
 	}
